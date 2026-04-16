@@ -46,6 +46,7 @@ dependencies {
 
     implementation(libs.chip.navigation.bar)
     implementation(libs.glide)
+    implementation(libs.androidx.recyclerview)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
