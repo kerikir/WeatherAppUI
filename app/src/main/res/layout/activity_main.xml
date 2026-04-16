@@ -78,6 +78,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -180,6 +181,18 @@
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="@string/title_hourly_weather"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
