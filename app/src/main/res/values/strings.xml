@@ -3,4 +3,5 @@
 
     <string name="search_hint">City…</string>
     <string name="search_button">Search</string>
+    <string name="current_weather">25°C</string>
 </resources>
