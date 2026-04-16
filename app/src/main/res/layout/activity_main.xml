@@ -53,6 +53,7 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:inputType="text"
+                    android:autofillHints="locality"
                     android:background="@color/transparent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/button"
@@ -85,6 +86,21 @@
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:layout_margin="24dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/sunny"
+                    android:contentDescription="@string/description_sunny_weather"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
