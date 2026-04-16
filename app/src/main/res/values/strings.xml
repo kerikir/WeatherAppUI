@@ -9,4 +9,8 @@
     <string name="description_sunny_weather">Sunny weather</string>
     <string name="wind_speed">Wind Speed</string>
     <string name="wind_speed_value">14 km/h</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_value">23%</string>
+    <string name="rain">Rain</string>
+    <string name="rain_value">18%</string>
 </resources>
