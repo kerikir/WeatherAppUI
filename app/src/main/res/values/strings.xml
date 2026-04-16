@@ -14,4 +14,6 @@
     <string name="rain">Rain</string>
     <string name="rain_value">18%</string>
     <string name="title_hourly_weather">Today</string>
+    <string name="other_cities_title">Other City</string>
+    <string name="view_all_list_title">View all</string>
 </resources>
