@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Weather Simple App UI</string>
+    <string name="empty_description" />
 
     <string name="search_hint">City…</string>
     <string name="search_button">Search</string>
+
+    <string name="current_weather">21°C</string>
+    <string name="description_sunny_weather">Sunny weather</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind_speed_value">14 km/h</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_value">23%</string>
+    <string name="rain">Rain</string>
+    <string name="rain_value">18%</string>
 </resources>
