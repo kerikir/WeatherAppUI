@@ -9,4 +9,25 @@
         app:cnb_background="@color/green"
         app:cnb_iconColor="@color/white" />
 
+    <item
+        android:id="@+id/explorer"
+        android:icon="@drawable/bottom_btn2"
+        android:title="@string/menu_explorer"
+        app:cnb_background="@color/green"
+        app:cnb_iconColor="@color/white" />
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bottom_btn3"
+        android:title="@string/menu_bookmark"
+        app:cnb_background="@color/green"
+        app:cnb_iconColor="@color/white" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/bottom_btn4"
+        android:title="@string/menu_profile"
+        app:cnb_background="@color/green"
+        app:cnb_iconColor="@color/white" />
+
 </menu>
