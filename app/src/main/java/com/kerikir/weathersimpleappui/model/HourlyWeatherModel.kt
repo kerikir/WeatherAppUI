@@ -1,4 +1,4 @@
-package com.kerikir.weathersimpleappui
+package com.kerikir.weathersimpleappui.model
 
 data class HourlyWeatherModel(
     val hour: String,
