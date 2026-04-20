@@ -15,28 +15,29 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/hour_hourly"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="TextView"
+            android:text="@string/placeholder_hour_hourly"
             android:textAlignment="center"
             android:textColor="@color/white" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/pic_hourly"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            app:srcCompat="@drawable/cloudy" />
+            app:srcCompat="@drawable/cloudy"
+            android:contentDescription="@string/empty_description" />
 
         <TextView
             android:id="@+id/temp_hourly"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="0"
+            android:text="@string/placeholder_temperature_hourly"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp" />
