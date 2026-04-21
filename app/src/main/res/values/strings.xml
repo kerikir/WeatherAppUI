@@ -28,4 +28,6 @@
 
     <string name="title_wind_city_weather">Wind</string>
     <string name="location_title_city_weather">Location</string>
+    <string name="location_value_city_weather">Ivanovo</string>
+    <string name="temperature_value_city_weather">21°</string>
 </resources>
