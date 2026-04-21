@@ -98,14 +98,14 @@
 
     <ImageView
         android:id="@+id/picture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/empty_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cloudy_2"
-        android:contentDescription="@string/empty_description" />
+        app:srcCompat="@drawable/cloudy_2" />
 
     <TextView
         android:id="@+id/textView8"

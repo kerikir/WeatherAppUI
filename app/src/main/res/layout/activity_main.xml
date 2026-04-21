@@ -30,14 +30,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginEnd="24dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="60dp"
+                android:layout_marginEnd="24dp"
                 android:background="@drawable/white_full_corner">
 
                 <EditText
@@ -45,17 +46,17 @@
                     android:layout_width="0dp"
                     android:layout_height="50dp"
                     android:layout_marginBottom="3dp"
-                    android:ems="10"
-                    android:textSize="16sp"
-                    android:padding="8dp"
-                    android:drawableStart="@drawable/search_icon"
-                    android:drawablePadding="8dp"
-                    android:hint="@string/search_hint"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/black"
-                    android:inputType="text"
                     android:autofillHints="locality"
                     android:background="@color/transparent"
+                    android:drawableStart="@drawable/search_icon"
+                    android:drawablePadding="8dp"
+                    android:ems="10"
+                    android:hint="@string/search_hint"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/button"
                     app:layout_constraintStart_toStartOf="parent"
@@ -63,46 +64,45 @@
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button"
+                    style="@android:style/Widget.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/search_button"
-                    android:textColor="@color/white"
+                    android:layout_marginTop="2dp"
                     android:layout_marginEnd="4dp"
                     android:layout_marginBottom="2dp"
-                    android:layout_marginTop="2dp"
                     android:background="@drawable/green_full_corner"
-                    style="@android:style/Widget.Button"
+                    android:text="@string/search_button"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="24dp"
                 android:text="@string/current_weather"
-                android:textSize="70sp"
                 android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_margin="24dp"/>
+                android:textSize="70sp"
+                android:textStyle="bold" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_margin="24dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_margin="24dp">
 
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="170dp"
                     android:layout_height="170dp"
+                    android:contentDescription="@string/description_sunny_weather"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/sunny"
-                    android:contentDescription="@string/description_sunny_weather"/>
+                    app:srcCompat="@drawable/sunny" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -183,24 +183,23 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:text="@string/title_hourly_weather"
-                android:textSize="16sp"
                 android:textColor="@color/white"
-                android:textStyle="bold"/>
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_hourly_weather"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
                 android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:clipToPadding="false"/>
+                android:paddingEnd="16dp" />
 
 
             <LinearLayout
@@ -212,9 +211,9 @@
                     android:id="@+id/textView5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_weight="1"
                     android:text="@string/other_cities_title"
                     android:textColor="@color/white"
                     android:textSize="16sp"
@@ -224,8 +223,8 @@
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
                     android:text="@string/view_all_list_title"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
@@ -235,9 +234,9 @@
                 android:id="@+id/recycler_cities_weather"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
                 android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:clipToPadding="false"/>
+                android:paddingEnd="16dp" />
 
         </LinearLayout>
     </ScrollView>
