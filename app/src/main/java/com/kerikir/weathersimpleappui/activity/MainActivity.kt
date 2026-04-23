@@ -52,8 +52,8 @@ class MainActivity : AppCompatActivity() {
 
         ArrayList<CityWeatherModel>().apply {
             add(CityWeatherModel("Ivanovo", 22, "sunny", 16, 22, 10))
-            add(CityWeatherModel("Moscow", 22, "cloudy", 16, 22, 10))
-            add(CityWeatherModel("Belozersk", 22, "windy", 30, 15, 50))
+            add(CityWeatherModel("Moscow", 23, "cloudy", 16, 22, 10))
+            add(CityWeatherModel("Belozersk", 20, "windy", 30, 15, 50))
             add(CityWeatherModel("Kazan", 25, "cloudy_2", 10, 20, 35))
             add(CityWeatherModel("Chelyabinsk", 8, "snowy", 8, 5, 7))
 
