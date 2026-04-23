@@ -32,6 +32,6 @@
     <string name="temperature_value_city_weather">21°</string>
 
     <string name="value_temperature">%d°</string>
-    <string name="value_percent">%1$d\%</string>
+    <string name="value_percent">%1$d%%</string>
     <string name="value_speed">%d km/h</string>
 </resources>
