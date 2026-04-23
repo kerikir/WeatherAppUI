@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.kerikir.weathersimpleappui.R
 import com.kerikir.weathersimpleappui.databinding.ViewholderCityWeatherBinding
 import com.kerikir.weathersimpleappui.model.CityWeatherModel
 
@@ -40,10 +41,10 @@ class CityWeatherAdapter(
         val item = items[position]
         holder.binding.apply {
             city.text = item.cityName
-            wind.text = "${item.wind} km/h"
-            humidity.text = "${item.humidity}%"
-            rain.text = "${item.rain}%"
-            temperatureCity.text = "${item.temperature}°"
+            wind.text = context.getString(R.string.value_speed, item.wind)
+            humidity.text = context.getString(R.string.value_percent, item.humidity)
+            rain.text = context.getString(R.string.value_percent, item.rain)
+            temperatureCity.text = context.getString(R.string.value_temperature, item.temperature)
 
             val drawableResourceId = holder.itemView.resources.getIdentifier(
                 item.picPath,
