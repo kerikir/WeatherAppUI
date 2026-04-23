@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.kerikir.weathersimpleappui.R
 import com.kerikir.weathersimpleappui.databinding.ViewholderHourlyWeatherBinding
 import com.kerikir.weathersimpleappui.model.HourlyWeatherModel
 
@@ -36,7 +37,7 @@ class HourlyWeatherAdapter(
         val item = items[position]
         holder.binding.apply {
             hourHourly.text = item.hour
-            tempHourly.text = "${item.temperature}°"
+            tempHourly.text = context.getString(R.string.value_temperature, item.temperature)
             val drawableResourceId = holder.itemView.resources.getIdentifier(
                 item.picPath,
                 "drawable",
