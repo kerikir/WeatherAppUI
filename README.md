@@ -18,6 +18,25 @@
 
 ---
 
+## 🛠 Технологический стек
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android XML](https://img.shields.io/badge/UI-XML-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![RecyclerView](https://img.shields.io/badge/RecyclerView-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![ChipNavigationBar](https://img.shields.io/badge/ChipNavigationBar-FF6F00?style=for-the-badge&logo=android&logoColor=white)
+
+---
+
+## 🎥 Демонстрация
+
+<p align="center">
+  <img src="demo/Weather.gif" width="250" alt="Демонстрация приложения" />
+  <br/>
+  <em>Прокрутка почасового прогноза, список городов и взаимодействие с ChipNavigationBar.</em>
+</p>
+
+---
+
 ## 📸 Скриншоты
 
 | Текущая погода | Прогноз в других городах |
