@@ -24,6 +24,7 @@
 ![Android XML](https://img.shields.io/badge/UI-XML-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![RecyclerView](https://img.shields.io/badge/RecyclerView-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![ChipNavigationBar](https://img.shields.io/badge/ChipNavigationBar-FF6F00?style=for-the-badge&logo=android&logoColor=white)
+![ConstraintLayout](https://img.shields.io/badge/ConstraintLayout-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 ---
 
@@ -45,6 +46,19 @@
 
 ---
 
+## 🧱 Особенности реализации
+
+- **Разметка на XML** с использованием `ConstraintLayout` для сложного позиционирования элементов (текущая погода, строка поиска, списки).
+- **Два `RecyclerView`**:
+  - Горизонтальный – для почасового прогноза (настраиваемый `LinearLayoutManager`).
+  - Горизонтальный – для списка городов.
+- **Адаптеры** написаны на Kotlin для плавного обновления (даже на статических данных).
+- **ChipNavigationBar** – сторонняя библиотека (`com.ismaeldivita.chipnavigation:chip-navigation-bar`), добавлена в зависимости. Настроена смена иконок и цветов при выборе.
+- **Данные** – заглушки в виде локальных списков, имитирующих ответ от API.
+- **Никаких лишних библиотек** – минимум зависимостей, вся логика в коде.
+
+---
+
 ## ⚙️ Элементы интерфейса
 
 | Элемент | Как взаимодействует |
@@ -58,7 +72,7 @@
 
 ## 🚀 Быстрый старт
 
-1. Перейдите в раздел [**Releases**](https://github.com/kerikir/WeatherAppU/releases).
+1. Перейдите в раздел [**Releases**](https://github.com/kerikir/WeatherAppUI/releases).
 2. Скачайте APK-файл (`Weather.apk`).
 3. **Установка:**
    - Откройте загруженный файл на устройстве Android.
